@@ -1,0 +1,71 @@
+.container {
+   background-color: #FFFAFA; 
+   border-radius: 1em;
+   display: flex;
+   gap: 2rem;
+   height: 40rem;
+   width: 25rem;
+   padding: 2rem;
+   margin: 2rem auto;
+   flex-direction: column;
+   justify-content: center;  
+   align-items: center;
+   overflow: hidden;
+}s
+
+.nome {
+   padding: 10px;
+   margin-top: 0;
+}
+
+.information {
+   background: #FFFAFA;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   padding: 2rem;
+   flex-grow: 1;
+}
+
+.foto {
+   width: 150px;
+   height: 130px;
+   border: none;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-top: 2rem;
+   margin-bottom: 0;
+   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.linha {
+   width: 100%;
+   margin: 12px 0;
+   height: 2px;
+   border: none;
+   background-color: #B0C4DE;
+}
+
+.botao {
+   background-color: #B0C4DE;
+   border: none;
+   padding: .75rem;
+   border-radius: .5rem;
+   font-size: 1rem;
+   margin-top: 1rem;
+   color: #00008B;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+   transition: .2s;
+   font-weight: bold;
+   width: 75%;
+   margin-left: auto; 
+   margin-right: auto;
+}
+
+.botao:hover {
+   cursor: pointer;
+   margin-left: 1rem;
+ }
+
